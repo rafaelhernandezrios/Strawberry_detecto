@@ -27,8 +27,7 @@ ENV/
 
 # YOLOv8 specific
 runs/
-*.pt
-!yolov8n.pt  # Keep the base model
+*.pt  # Ignore all PT files
 
 # Videos and Images (large files)
 *.mp4

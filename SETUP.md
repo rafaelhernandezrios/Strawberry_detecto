@@ -2,6 +2,21 @@
 
 ## Español
 
+### Descarga del Modelo YOLOv8
+1. Instala ultralytics:
+```bash
+pip install ultralytics
+```
+
+2. Descarga el modelo base:
+```bash
+# Opción 1: Usando Python
+python -c "from ultralytics import YOLO; YOLO('yolov8n.pt')"
+
+# Opción 2: Descarga directa
+# Visita: https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt
+```
+
 ### Archivos de Video de Ejemplo
 Los archivos de video de ejemplo no están incluidos en el repositorio debido a su tamaño. Para obtener los videos de ejemplo:
 
@@ -12,13 +27,28 @@ Los archivos de video de ejemplo no están incluidos en el repositorio debido a 
 2. Coloca los archivos descargados en el directorio raíz del proyecto.
 
 ### Configuración del Modelo
-El modelo base `yolov8n.pt` está incluido en el repositorio. Si necesitas reentrenar el modelo:
+Una vez descargado el modelo base `yolov8n.pt`, si necesitas reentrenarlo:
 
 1. Prepara tu dataset
 2. Modifica el archivo `data.yaml` según sea necesario
 3. Sigue las instrucciones en el README.md para el entrenamiento
 
 ## English
+
+### YOLOv8 Model Download
+1. Install ultralytics:
+```bash
+pip install ultralytics
+```
+
+2. Download the base model:
+```bash
+# Option 1: Using Python
+python -c "from ultralytics import YOLO; YOLO('yolov8n.pt')"
+
+# Option 2: Direct download
+# Visit: https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt
+```
 
 ### Example Video Files
 The example video files are not included in the repository due to their size. To get the example videos:
@@ -30,7 +60,7 @@ The example video files are not included in the repository due to their size. To
 2. Place the downloaded files in the project root directory.
 
 ### Model Setup
-The base model `yolov8n.pt` is included in the repository. If you need to retrain the model:
+Once you have downloaded the base model `yolov8n.pt`, if you need to retrain it:
 
 1. Prepare your dataset
 2. Modify the `data.yaml` file as needed
